@@ -1,0 +1,55 @@
+gibody{
+  background-image: url("http://www.ebvlaw.com/wp-content/uploads/2016/03/Free-Simple-Black-Seamless-Pattern-for-Website-Background-lgrey2.jpg");
+}
+
+#container{
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#grid-container{
+  position: relative;
+  outline: 2px solid black;
+  font-size: 0;
+  margin: auto;
+  width: 860px;
+  height: 860px;
+  padding: 0;
+  border: none;
+}
+
+.grid-item{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 1px solid black;
+  display: inline-block;
+  background-color: gray;
+}
+
+.hoverColor{
+  background-color: black;
+}
+
+#clearBtn{
+  position: relative;
+  display: inline-block;
+  left: 30%;
+}
+
+#title{
+  position: relative;
+  font-size: 20px;
+  font-family: Verdana;
+  display: inline-block;
+  left: 42%;
+  font-weight: bold;
+  text-shadow: 4px 4px 5px white;
+}
+
+#info{
+  position: relative;
+  display: inline-block;
+  left: 51%;
+}
