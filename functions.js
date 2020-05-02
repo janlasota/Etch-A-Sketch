@@ -23,7 +23,7 @@ function clearGrid(){
 
 function gridSize(){
   var size = prompt("How many squares would you like? e.g., 5x5"
-  + " (just type one number)");
+  + " (just type one number, 100 and less for best results)");
   genDivs(size);
 }
 
